@@ -27,15 +27,6 @@ The outcome is a tailored outfit recommendation that maximizes the fitness score
 
 ---
 
-## 🏆 Key Features
-- **Outfit Optimization** 🔍: The GA selects the best outfit combination based on user inputs.
-- **Customizable Preferences** 💡: Users can input dress code, color palette, comfort level, and budget.
-- **Fitness Evaluation** 💪: The system evaluates each outfit using a weighted fitness function.
-- **Genetic Algorithm** 🧬: Implements selection, crossover, mutation, and replacement operations to evolve the population.
-- **Efficient Selection** 🎯: The binary tournament selection ensures the best solutions are chosen for the next generation.
-
----
-
 ## 💻 Technology Stack
 - **Programming Language:** Python
 - **Algorithm:** Genetic Algorithm (GA) using 2-point crossover, mutation, binary tournament selection, and replacement.
@@ -66,17 +57,4 @@ The outcome is a tailored outfit recommendation that maximizes the fitness score
      ```bash
      python PerfectFit.py
      ```
-
-4. **🛠️ User Input**
-   - The program will prompt you for your preferences, including dress code, color palette, comfort level, and budget.
-   - The algorithm will then generate the optimal outfit combination based on your input.
-
----
-
-## 📊 Results and Graphs
-The algorithm’s performance is tracked and displayed through a fitness graph, which shows how the population evolves over multiple generations.
-
-- The graph demonstrates the increase in the average fitness score across 20 runs of the genetic algorithm, showing the algorithm’s ability to consistently improve the outfit selections.
-
----
 
